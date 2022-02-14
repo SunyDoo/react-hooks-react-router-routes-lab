@@ -4,44 +4,16 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
   <div className="navbar">
-    <NavLink
-        to="/"
-        exact
-        // style={linkStyles}
-        // activeStyle={{
-        //   background: "darkblue",
-        // }}
-      >
+    <NavLink to="/" exact>
         Home
       </NavLink>
-      <NavLink
-        to="/movies"
-        exact
-        // style={linkStyles}
-        // activeStyle={{
-        //   background: "darkblue",
-        // }}
-      >
+      <NavLink to="/" exact>
         Movies
       </NavLink>
-      <NavLink
-        to="/directors"
-        exact
-        // style={linkStyles}
-        // activeStyle={{
-        //   background: "darkblue",
-        // }}
-      >
+      <NavLink to="/" exact>
         Directors
       </NavLink>
-      <NavLink
-        to="/actors"
-        exact
-        // style={linkStyles}
-        // activeStyle={{
-        //   background: "darkblue",
-        // }}
-      >
+      <NavLink to="/" exact>
         Actors
       </NavLink>
 
